@@ -1,0 +1,15 @@
+name: prism_settings_example
+description: Demo app for prism_settings.
+publish_to: none
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  prism_settings:
+    path: ..
+
+flutter:
+  uses-material-design: true

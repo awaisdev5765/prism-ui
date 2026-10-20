@@ -1,0 +1,30 @@
+name: prism_settings
+description: >-
+  Ready-made adaptive settings screens for Flutter — tiles, toggles, sliders,
+  dropdowns, and sections with built-in search. Two-pane on wide windows.
+  Part of the Prism package family.
+version: 0.1.0
+repository: https://github.com/awaisdev5765/prism_settings
+issue_tracker: https://github.com/awaisdev5765/prism_settings/issues
+topics:
+  - settings
+  - preferences
+  - widget
+  - ui
+
+environment:
+  sdk: ^3.9.0
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  prism_adaptive_scaffold: ^0.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
